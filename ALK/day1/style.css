@@ -1,0 +1,106 @@
+/* general rules CSS */
+
+body{
+    margin: 0px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+#container{
+    max-width: 1000px;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* header */
+header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+/* brand */
+
+.brand a,
+.brand img {
+    display: block;
+}
+
+/* menu */
+
+nav ul {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+nav a {
+    color: black;
+    padding: 15px;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+}
+nav a:hover{
+    background-color: black;
+    color: white;
+}
+
+/* SLIDER */
+.slider{
+    display: block;
+}
+/* MAIN */
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+article{
+    width: 70%;
+    padding: 30px;
+
+}
+
+aside{
+    width: 30%;
+    padding: 20px;
+    background-color: lightblue;
+    border-left: 2px solid black;
+}
+
+.widget{
+    margin-bottom: 40px;
+}
+
+.widget img{
+    float: left;
+    margin: 0 10px 5 0;
+}
+
+.links ul{
+    list-style-type: square;
+    margin: 0;
+}
+
+.links li{
+    margin-bottom: 10px;
+}
