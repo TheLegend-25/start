@@ -1,0 +1,27 @@
+body{
+    background-color: aliceblue; 
+}
+
+button[value="light"]{
+    background-color:#354761;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+}
+
+button[value="dark"]{
+    background-color:#BFCEE1;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+}
+
+p{
+    color: antiquewhite;
+}
+
+#img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

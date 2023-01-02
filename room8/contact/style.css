@@ -1,0 +1,67 @@
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.8s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.9s;
+  }
+  
+  #about {
+    position: absolute;
+    right: 130px;
+  }
+
+  #serv {
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    word-wrap: initial;
+  }
+
+  #clients{
+    position: absolute;
+    right: 120px;
+    top: 140px;
+  }
+
+  #contact{
+    position: absolute;
+    right: 110px;
+    top: 180px;
+  }
+
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0px;
+    right: 210px;
+    font-size: 45px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
