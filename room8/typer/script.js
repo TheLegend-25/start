@@ -38,6 +38,13 @@ font.onchange = function(){
 
 var size = document.getElementById("font_size")
 size.onchange = function(){
-    document.getElementById("size").style.fontSize=size.value + "px";
+    if (size.value > 40){
+        size.value = 40;
+    }
+    else if (size.value < 1){
+        size.value = 1;
+    }
+    // document.getElementById("size").style.fontSize=size.value + "px";
     document.getElementById("field").style.fontSize=size.value + "px";
+    
 }
