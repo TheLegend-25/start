@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <input type="color" name="color" id="color"> -->
+    
+<table>
+    <tr>
+    <td><label for="33" id="text_bold">bold</label></td>
+
+    <td><label for="44" id="text_italic">italic</label></td>
+      
+    <td><label for="font_select" id="font">font</label></td>
+    <td><label for="font_size" id="size">font size</label></td>
+</tr>
+<tr>
+    <td><label class="switch" id="33">
+        <input type="checkbox" id="bold" value="false">
+        <span class="slider round"></span>
+    </label></td>
+
+    <td><label class="switch" id="44">
+        <input type="checkbox" id="italic" value="false">
+        <span class="slider round"></span>
+    </label></td>
+
+    <td><select name="font" id="font_select" class="switch">
+        <option value="Arial" style="font-family: Arial">Arial</option> 
+        <option value="Calibri" style="font-family: Calibri">Calibri</option>
+        <option value="Futara" style="font-family: Futara">Futara</option>
+        <!-- <option value="Optima" style="font-family: Optima">Optima</option>
+        <option value="Geneva" style="font-family: Geneva">Geneva</option>
+        <option value="Times New Roman" style="font-family: Times New Roman">Times New Roman</option> -->
+        <option value="Consolas" style="font-family: Consolas">Consolas</option>
+    </select></td>
+    <td><input type="number" id="font_size" step="1" min="1" max="40" value="12"></td>
+</tr>
+</table> 
+
+    <textarea name="field1" id="field" cols="30" rows="10" placeholder="type here"></textarea>
+</body>
+</html>

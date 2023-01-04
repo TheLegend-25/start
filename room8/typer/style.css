@@ -1,0 +1,118 @@
+.switch {
+    position: relative;
+    display:table-cell;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  #text_bold{
+    position: relative;
+    left: 15px;
+  }
+
+  #text_italic{
+    position: relative;
+    left: 15px;
+  }
+ #font{
+    position: relative;
+    left: 15px;
+ }
+
+ #size{
+    position: relative;
+    left: 5px;
+ }
+
+body{
+    vertical-align: middle;
+
+}
+table{
+    position: relative;
+    left: 15%;
+    vertical-align: middle;
+}
+
+html {
+    display: table;
+    margin: auto;
+    background-color: #deebf5;
+}
+
+option{
+    background-color: rgb(218, 216, 216);
+}
+
+select{
+    background-color: rgb(218, 216, 216);
+}
+
+#font_size{
+    background-color: rgb(218, 216, 216);
+    height:28px;
+    
+}
+
+textarea{
+    resize: none;
+    width: 400px;
+    height: 300px;
+    display: grid;
+    background-color: rgb(218, 216, 216);
+}
